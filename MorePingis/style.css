@@ -1,0 +1,82 @@
+/* För hela sidan */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex; /* Aktiverar flexbox */
+  flex-direction: column; /* Staplar elementen vertikalt */
+  align-items: center; /* Centrerar horisontellt */
+  justify-content: center; /* Centrerar vertikalt */
+  height: 100vh; /* Full höjd på fönstret */
+  background-color: #f7f7f7; /* Ljus bakgrundsfärg */
+  font-family: Arial, sans-serif; /* Tydligt typsnitt */
+  text-align: center;
+}
+
+/* För formuläret */
+form {
+  display: flex; /* Aktiverar flexbox */
+  flex-direction: column; /* Staplar input-fälten vertikalt */
+  align-items: center; /* Centrerar input-fälten horisontellt */
+  justify-content: center; /* Centrerar vertikalt */
+  margin-bottom: 20px; /* Avstånd till leaderboard */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga */
+}
+
+/* För input-fälten */
+input[type="text"],
+input[type="number"] {
+  width: 20%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* För knappen */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* För leaderboard */
+table {
+  width: 80%;
+  max-width: 600px;
+  border-collapse: separate;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+td {
+  font-size: 14px;
+}
