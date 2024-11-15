@@ -40,7 +40,7 @@ input[type="number"] {
 
 /* För knappen */
 button {
-  background-color: green;
+  background-color: #377cb3;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
