@@ -80,3 +80,15 @@ th {
 td {
   font-size: 14px;
 }
+
+.main-icon {
+  font-size: 3rem;
+}
+
+.horizontal-line {
+  margin: 2rem 0 .8rem 0;
+  height: 2px;
+  background-color: #AAA;
+  width: 60%;
+  border-radius: 10px;
+}
