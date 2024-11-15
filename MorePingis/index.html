@@ -5,32 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pingis Match</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4caf940c30.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <i class="main-icon fa-solid fa-table-tennis-paddle-ball"></i>
   <h1>Register Pingis Match</h1>
   <div>
     <label for="player1">
-      Player 1:
+      <i class="fa-solid fa-user"></i> 1:
       <input type="text" id="player1" placeholder="Player 1" />
     </label>
     <label for="player2">
-      Player 2:
+      <i class="fa-solid fa-user"></i> 2:
       <input type="text" id="player2" placeholder="Player 2" />
     </label>
     <br>
     <label for="score1">
-      Score 1:
+      <i class="fa-solid fa-hashtag"></i> 1:
       <input type="number" id="score1" placeholder="Vunna set?" />
     </label>
     <label for="score2">
-      Score 2:
+      <i class="fa-solid fa-hashtag"></i> 2:
       <input type="number" id="score2" placeholder="Vunna set?" />
     </label>
     <br>
     <button id="saveButton">Register Match</button>
   </div>
   <div>
-  <h2>Leaderboard</h2>
+  <h2>
+    <i class="fa-solid fa-trophy"></i>
+    Leaderboard 
+  </h2>
   <table id="leaderboard"></table>
 </div>
   <script src="frontend.js"></script>
